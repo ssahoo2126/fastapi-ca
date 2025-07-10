@@ -14,7 +14,9 @@ dependencies = [
     "passlib[bcrypt] (>=1.7.4,<2.0.0)",
     "sqlalchemy (>=2.0.41,<3.0.0)",
     "mysqlclient (>=2.2.7,<3.0.0)",
-    "alembic (>=1.16.2,<2.0.0)"
+    "alembic (>=1.16.2,<2.0.0)",
+    "bcrypt (<4.1.0)",
+    "pydantic[email] (>=2.11.7,<3.0.0)"
 ]
 
 
